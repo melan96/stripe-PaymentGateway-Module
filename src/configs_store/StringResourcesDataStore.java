@@ -16,6 +16,7 @@ public class StringResourcesDataStore {
     //Module ID
     private final String StripeModuleID="1000000000";
 
-    
+    //Implemented Module desc
+    private final String MODULE_01 = "PaymentVerifier";
 
 }
