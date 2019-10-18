@@ -11,12 +11,15 @@ public class StringResourcesDataStore {
     */
 
     //Stripe PaymentGateway Module Version
-    private final String StripeAPIVersion="1.0";
+    private static final String StripeAPIVersion="1.0";
 
     //Module ID
-    private final String StripeModuleID="1000000000";
+    private static final String StripeModuleID="1000000000";
 
     //Implemented Module desc
-    private final String MODULE_01 = "PaymentVerifier";
+    private static final String MODULE_01 = "PaymentVerifier";
+
+    //Configs props location
+    public static final String CONFIG_PROP_PATH="/configs_store/configs.props";
 
 }
