@@ -11,7 +11,7 @@ public class PaymentDAORepository implements IPaymentDAO {
 	private String cardNumber;
 	private String cardType;
 	private String cardCVV;
-	
+
 
 	public PaymentDAORepository(String cardNumber, String cardType, String cardCVV, String cardExpDate) {
 
@@ -19,6 +19,7 @@ public class PaymentDAORepository implements IPaymentDAO {
 		this.cardType = cardType;
 		this.cardCVV = cardCVV;
 		this.cardExpDate = cardExpDate;
+    private String cardExpDate;
 	}
 
 	public String getCardNumber() {
