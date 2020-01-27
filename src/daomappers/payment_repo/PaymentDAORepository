@@ -1,0 +1,60 @@
+package daomappers_pkg.data_definitions__pkg.payment_repo;
+
+/**
+ * @author melanrashitha
+ * @date Sep 21, 2019
+ * @FileName PaymentDAORepository.java
+ */
+
+public class PaymentDAORepository implements IPaymentDAO {
+
+	private String cardNumber;
+	private String cardType;
+	private String cardCVV;
+	
+
+	public PaymentDAORepository(String cardNumber, String cardType, String cardCVV, String cardExpDate) {
+
+		this.cardNumber = cardNumber;
+		this.cardType = cardType;
+		this.cardCVV = cardCVV;
+		this.cardExpDate = cardExpDate;
+	}
+
+	public String getCardNumber() {
+		return cardNumber;
+	}
+
+	public void setCardNumber(String cardNumber) {
+		this.cardNumber = cardNumber;
+	}
+
+	public String getCardType() {
+		return cardType;
+	}
+
+	public void setCardType(String cardType) {
+		this.cardType = cardType;
+	}
+
+	public String getCardCVV() {
+		return cardCVV;
+	}
+
+	public void setCardCVV(String cardCVV) {
+		this.cardCVV = cardCVV;
+	}
+
+	public String getCardExpDate() {
+		return cardExpDate;
+	}
+
+	public void setCardExpDate(String cardExpDate) {
+		this.cardExpDate = cardExpDate;
+	}
+
+
+
+
+
+}
